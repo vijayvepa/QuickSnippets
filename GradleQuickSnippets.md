@@ -168,3 +168,5 @@ See https://stackoverflow.com/a/48370451/474377
 new String( new ByteArrayOutputStream().toByteArray(), codepage );
 
 ```
+
+See https://stackoverflow.com/questions/216894/get-an-outputstream-into-a-string
