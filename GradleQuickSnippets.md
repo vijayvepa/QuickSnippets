@@ -161,3 +161,10 @@ println "$project.myArg"
 ```
 
 See https://stackoverflow.com/a/48370451/474377
+
+### Convert OutputStream to String
+
+```groovy
+new String( new ByteArrayOutputStream().toByteArray(), codepage );
+
+```
